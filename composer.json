@@ -1,0 +1,20 @@
+{
+    "name": "php-pro/app",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "7.*",
+        "nesbot/carbon": "^2.69"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sanyok"
+        }
+    ],
+    "minimum-stability": "stable"
+}
